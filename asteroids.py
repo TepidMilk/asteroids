@@ -26,7 +26,7 @@ class Asteroid(CircleShape):
         #random angle between 20 and 50 degrees
         random_angle = random.uniform(20,50)
 
-        #create 2 new angles t oadjust velocity of new asteroids
+        #create 2 new angles to adjust velocity of new asteroids
         angle1 = self.velocity.rotate(random_angle)
         angle2 = self.velocity.rotate(-random_angle)
         
